@@ -14,7 +14,7 @@ export default function Home() {
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-8 text-[#334155] sm:text-lg">
             Kumpulan project yang pernah saya kerjakan, mulai dari Work
-            Project, Client Project, hingga Personal Project.
+            Project, Client Project, Internship Project, hingga Personal Project.
           </p>
         </header>
 

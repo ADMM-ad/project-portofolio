@@ -1,7 +1,9 @@
 export type ProjectCategory =
   | "Work Project"
   | "Client Project"
-  | "Personal Project";
+  | "Personal Project"
+  | "Internship Project"
+  ;
 
 export type Project = {
   id: number;

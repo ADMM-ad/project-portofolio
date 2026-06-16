@@ -12,6 +12,7 @@ const categoryStyles: Record<ProjectCategory, string> = {
   "Work Project": "border-blue-200 bg-blue-50 text-[#1E3A8A]",
   "Client Project": "border-orange-200 bg-orange-50 text-orange-700",
   "Personal Project": "border-emerald-200 bg-emerald-50 text-emerald-700",
+  "Internship Project": "border-violet-200 bg-violet-50 text-violet-700",
 };
 
 export function ProjectCard({ project, index }: ProjectCardProps) {
@@ -40,7 +41,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
               className="absolute inset-0 bg-cover bg-center"
               style={{ backgroundImage: `url(${project.poster})` }}
             />
-            <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(248,250,252,0.15),rgba(30,58,138,0.18))]" />
+            
           </div>
 
           <div className="mt-5 flex flex-1 flex-col">
